@@ -1,0 +1,5 @@
+beautifulsoup4==4.11.2
+gradio==4.29.0
+groq==0.5.0
+pyautogen==0.2.27
+requests==2.31.0
