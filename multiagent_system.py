@@ -10,6 +10,9 @@ import gradio as gr
 import autogen
 import groq
 
+from dotenv import load_dotenv
+load_dotenv()
+
 TODAY_DATE = datetime.today().strftime('%d.%m.%Y')
 
 GROQ_API_KEY = os.getenv('GROQ_API_KEY')
